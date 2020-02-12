@@ -26,6 +26,7 @@ class Song
     @@artists.uniq
   end
 
+#Write a class method, .genre_count, that returns a hash in #which the keys are the names of each genre. Each genre name #key should point to a value that is the number of songs that #have that genre.
   def self.genre_count
     genre_count = {}
     @@genres.each do |genre|
