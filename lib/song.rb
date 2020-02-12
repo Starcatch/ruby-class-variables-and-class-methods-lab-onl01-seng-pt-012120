@@ -38,6 +38,7 @@ class Song
     end
     genre_count
   end
+#You will need to iterate over the @@genres array and populate a #hash with the key/value pairs. You will need to check to see #if the hash already contains a key of a particular genre. If #so, increment the value of that key by one, otherwise, create #a new key/value pair.
 
   def self.artist_count
     artist_count = {}
