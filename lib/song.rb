@@ -1,6 +1,6 @@
 class Song
-  @@song_count = 0
+  @@count = 0
   
-  def self.song_count
-    @@song_count
+  def self.count
+    @@count
   end 
